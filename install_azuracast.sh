@@ -15,3 +15,4 @@ sudo chmod +x docker.sh
 ./docker.sh install-docker-compose
 ./docker.sh install
        
+docker pull azuracast/azuracast
