@@ -16,4 +16,4 @@ sudo chmod +x docker.sh
 ./docker.sh install
        
 sudo docker pull azuracast/azuracast
-sudo docker-compose -f docker-compose.override.yml up -d
+sudo docker-compose -f docker-compose.installer.yml up -d
