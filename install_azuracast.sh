@@ -24,4 +24,4 @@ sudo chmod +x docker.sh
 # ./docker.sh update-self
 # ./docker.sh update
 
-docker-compose up -d
+# docker-compose up -d
