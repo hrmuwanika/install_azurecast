@@ -15,8 +15,13 @@ sudo chmod +x docker.sh
 ./docker.sh install
 
 # Enable letsencrypt
-cd /var/azuracast
-./docker.sh update-self
-./docker.sh letsencrypt-create
+# cd /var/azuracast
+# ./docker.sh update-self
+# ./docker.sh letsencrypt-create
+
+# Docker update
+# cd /var/azuracast
+# ./docker.sh update-self
+# ./docker.sh update
 
 docker-compose up -d
